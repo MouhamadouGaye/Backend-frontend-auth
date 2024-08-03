@@ -9,3 +9,11 @@ Authentification using in the backend NodeJS, Postgres, Library Formik, Eslint a
 >>>> Formik
 >>>>> Typscript
 
+# Frontend
+
+> React
+>> Typescipt
+>>> axios
+
+
+
