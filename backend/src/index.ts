@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 3005
 app.get("/", (req: Request, res: Response) => {
   try {
     return res.status(200).json({
-      message: " Welcome to CodeGenitor API",
+      message: " Welcome to MGaye API",
     });
   } catch (error) {
     return res.status(500).json({
@@ -43,12 +43,6 @@ app.use((req: Request, res: Response) => {
   });
 });
 
-// unknonw route handler
-app.use((req: Request, res: Response) => {
-  return res.status(404).json({
-    message: "Route not found",
-  });
-});
 
 // Start the server
 app.listen(PORT, async () => {
