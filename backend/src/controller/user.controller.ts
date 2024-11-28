@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import { pool } from "../config/connectDB";
 import bcrypt from "bcryptjs";
 
-// register a new user
+// register a new user without setting token
 export const register = async (req: Request, res: Response) => {
   try {
     // get the user data from the request body
