@@ -7,10 +7,10 @@ import chalk from "chalk";
 // import path from "path";
 
 export const pool = new Pool({
-  user: "gaye",
+  user: "USERNAME",
   host: "localhost",
-  database: "template1",
-  password: "Postgres.2424",
+  database: "DATABASE",
+  password: "PASSWORD",
   port : 5432
 });
  
